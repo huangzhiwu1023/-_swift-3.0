@@ -14,6 +14,9 @@
 		FFBBCFA81E1CF91F00E55B0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBBCFA61E1CF91F00E55B0C /* LaunchScreen.storyboard */; };
 		FFBBCFB31E1CF91F00E55B0C /* xinxinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBBCFB21E1CF91F00E55B0C /* xinxinTests.swift */; };
 		FFBBCFBE1E1CF91F00E55B0C /* xinxinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBBCFBD1E1CF91F00E55B0C /* xinxinUITests.swift */; };
+		FFBBCFCC1E1CF95800E55B0C /* WSStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBBCFCB1E1CF95800E55B0C /* WSStar.swift */; };
+		FFBBCFCF1E1CFCC500E55B0C /* star_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = FFBBCFCD1E1CFCC500E55B0C /* star_gray.png */; };
+		FFBBCFD01E1CFCC500E55B0C /* star_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = FFBBCFCE1E1CFCC500E55B0C /* star_yellow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		FFBBCFB91E1CF91F00E55B0C /* xinxinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xinxinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBBCFBD1E1CF91F00E55B0C /* xinxinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xinxinUITests.swift; sourceTree = "<group>"; };
 		FFBBCFBF1E1CF91F00E55B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBBCFCB1E1CF95800E55B0C /* WSStar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSStar.swift; sourceTree = "<group>"; };
+		FFBBCFCD1E1CFCC500E55B0C /* star_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_gray.png; path = "../../HYBStarEvaluationView-master/HYBStarEvaluationViewDemo-iOS/HYBStarEvaluationViewDemo-iOS/HYBStarEvaluationView/star_gray.png"; sourceTree = "<group>"; };
+		FFBBCFCE1E1CFCC500E55B0C /* star_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_yellow.png; path = "../../HYBStarEvaluationView-master/HYBStarEvaluationViewDemo-iOS/HYBStarEvaluationViewDemo-iOS/HYBStarEvaluationView/star_yellow.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				FFBBCFA41E1CF91F00E55B0C /* Assets.xcassets */,
 				FFBBCFA61E1CF91F00E55B0C /* LaunchScreen.storyboard */,
 				FFBBCFA91E1CF91F00E55B0C /* Info.plist */,
+				FFBBCFCD1E1CFCC500E55B0C /* star_gray.png */,
+				FFBBCFCE1E1CFCC500E55B0C /* star_yellow.png */,
+				FFBBCFCB1E1CF95800E55B0C /* WSStar.swift */,
 			);
 			path = xinxin;
 			sourceTree = "<group>";
@@ -235,6 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFBBCFCF1E1CFCC500E55B0C /* star_gray.png in Resources */,
+				FFBBCFD01E1CFCC500E55B0C /* star_yellow.png in Resources */,
 				FFBBCFA81E1CF91F00E55B0C /* LaunchScreen.storyboard in Resources */,
 				FFBBCFA51E1CF91F00E55B0C /* Assets.xcassets in Resources */,
 				FFBBCFA31E1CF91F00E55B0C /* Main.storyboard in Resources */,
@@ -262,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFBBCFCC1E1CF95800E55B0C /* WSStar.swift in Sources */,
 				FFBBCFA01E1CF91F00E55B0C /* ViewController.swift in Sources */,
 				FFBBCF9E1E1CF91F00E55B0C /* AppDelegate.swift in Sources */,
 			);
@@ -417,6 +429,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WWGG9MN58D;
 				INFOPLIST_FILE = xinxin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.xinxin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +443,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WWGG9MN58D;
 				INFOPLIST_FILE = xinxin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.xinxin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
